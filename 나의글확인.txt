@@ -1,0 +1,25 @@
+나의글
+1. 상품평
+   select * from review where userid=''
+3. 상품문의
+   select * from quest where userid=''
+2. 고객센터
+   select * from mtm where userid=''
+
+
+// 서브쿼리 이용
+select * , (select title from product where pcode=review.pcode) from review
+    -> where userid=(select userid from member where no=3);
+                              // 아이디를 모를때 member에서 가져와서 처리
+
+ select * , (select title from product where pcode=review.pcode) from review 
+where userid='channy';
+
+select r.* , p.title from review as r inner join product as p
+    -> on r.pcode=p.pcode where userid='channy';
+
+// inner join, 서브쿼리  X
+select * from review;
+
+for(review갯수만큼)
+   select title from product where pcode=위의결과pcode

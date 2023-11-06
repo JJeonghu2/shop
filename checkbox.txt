@@ -1,0 +1,28 @@
+<input type="checkbox" value="1" name="chk1">
+
+1. request
+  - 체크가 안된경우  => null
+  - 체크된경우         =>  1
+
+2. vo  =>   int chk1;
+  - 체크가 안된경우  =>  0
+  - 체크된경우         =>  1 
+
+===========================================
+<input type="checkbox" value="0" name="chk2">짜장
+<input type="checkbox" value="1" name="chk2">짬뽕
+<input type="checkbox" value="2" name="chk2">우동
+<input type="checkbox" value="3" name="chk2">탕수육
+
+1. request로 받는경우  
+   - 짜장,짬뽕이 체크 되었다..  => .getParameter("chk2") => 1
+                                            .getParameterValues("chk2")  
+2. vo   int chk2; =>String으로 해야 된다..
+   - 짜장,짬뽕 체크                   1,2
+
+
+
+
+
+
+

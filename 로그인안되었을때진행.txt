@@ -1,0 +1,8 @@
+default => 로그인 클릭 => login       :  pcode=""  , su=""     
+
+jjim     => 찜클릭  로그인x  => login  : pcode="p......"  , su=""
+                                    pcode
+
+cart     => 클릭  로그인 X    => login : pcode="p......" , su="..."
+                                    pcode
+                                      su

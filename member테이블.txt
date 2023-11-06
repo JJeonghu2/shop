@@ -1,0 +1,13 @@
+ create table member(
+    -> no int auto_increment primary key,
+    -> userid char(20) unique,
+    -> name char(20),
+    -> pwd char(10),
+    -> phone varchar(20),
+    -> email varchar(100),
+    -> juk int,
+    -> level int default 0,
+    -> writeday date)
+    -> ;
+
+alter table member add state int default 0;

@@ -1,0 +1,8 @@
+1.체크박스 total()
+2. 수량변경 total()
+3. 삭제 total()
+
+function total()
+{
+   체크된 상품의 가격,수량,배송비
+}

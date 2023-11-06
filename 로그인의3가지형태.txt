@@ -1,0 +1,30 @@
+
+if(pcode가 있다)
+{
+      if(su가 없다)
+      {
+           jjim
+      }
+      else
+      {
+           cart
+      }
+}
+else 
+{
+    // 로그인을 위해 login문서로 온 경우
+}
+==========================
+if(pcode가 있다  &&  su가 있다)
+{
+    cart
+}
+else if(pcode가 있다)
+      {
+           jjim
+      }
+      else
+      {
+          로그인만 하려고
+      }
+

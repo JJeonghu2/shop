@@ -1,0 +1,7 @@
+create table quest(
+    -> no int auto_increment primary key,
+    -> title int,
+    -> content text,
+    -> writeday date,
+    -> userid char(20),
+    -> pcode char(12));

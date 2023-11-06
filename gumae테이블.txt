@@ -1,0 +1,17 @@
+
+MariaDB [shop]> create table gumae(
+    -> no int auto_increment primary key,
+    -> userid char(20),
+    -> baeno int,
+    -> pcode char(12),
+    -> su int,
+    -> pay int,
+    -> bank int,
+    -> card int,
+    -> halbu int,
+    -> tongsin int,
+    -> sudan int ,
+    -> chongprice int,
+    -> juk int,
+    -> writeday date,
+    -> jumuncode char(12));

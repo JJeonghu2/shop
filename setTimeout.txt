@@ -1,0 +1,25 @@
+setTimeout(실행할함수,시간)
+
+setInterval(실행할함수,시간)
+
+
+setInterval(test, 1000);  // 1초마다 test함수 실행
+setTimeout(test, 1000);  // 1초 후에 test함수 실행
+
+function test()
+{
+    alert();
+}
+
+// 임의함수를 통해서 생성
+
+setInterval(function()
+{
+    alert();
+}, 1000);  // 1초마다 test함수 실행
+
+setTimeout(function()
+{
+    alert();
+}, 1000);  // 1초 후에 test함수 실행
+

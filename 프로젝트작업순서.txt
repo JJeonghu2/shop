@@ -1,0 +1,7 @@
+1. shop 프로젝트 생성
+   (lombok, mybatis, maria, spring web, devtools, jdbc api)
+2. sitemesh + jsp + jstl  => pom.xml에 추가
+
+3. sitemesh를 사용하기 위해
+    프로젝트Application.java 같은 폴더에
+    sitemesh클래스의 상속을 받은후 설정클래서 만들기

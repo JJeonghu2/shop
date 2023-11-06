@@ -1,0 +1,14 @@
+select p.pimg, p.price, p.title, p.halin, p.btime, p.bprice,
+    ->      b.name, b.phone, b.zip, b.juso, b.jusoEtc,
+    ->      g.su
+    -> from product as p, baesong as b, gumae as g
+    -> where g.pcode=p.pcode and g.baeno=b.no and jumuncode='j20230830001';
+
+
+ select p.pimg, p.price, p.title, p.halin, p.btime, p.bprice,
+    -> b.name, b.phone, b.zip, b.juso, b.jusoEtc,
+    -> g.su
+    -> from gumae as g inner join product as p on g.pcode=p.pcode
+    -> inner join baesong as b on g.baeno=b.no
+    -> where jumuncode='j20230830001';
+

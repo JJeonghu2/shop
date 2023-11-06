@@ -1,0 +1,15 @@
+<c:if test="">
+  <input type="button" disabled>
+</c:if>
+<c:if test="">
+  <input type="button">
+</c:if>
+
+================
+<c:if test="">
+   <c:set var="aa" value="disabled"/>
+</c:if>
+<c:if test="">
+   <c:set var="aa" value=""/>
+</c:if>
+<input type="button" ${aa}>

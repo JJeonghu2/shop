@@ -1,0 +1,6 @@
+create table cart(
+    -> no int auto_increment primary key,
+    -> pcode char(12),
+    -> userid char(20),
+    -> su int,
+    -> writeday date);
